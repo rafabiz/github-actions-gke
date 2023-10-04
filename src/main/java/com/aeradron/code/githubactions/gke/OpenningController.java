@@ -10,7 +10,7 @@ public class OpenningController {
     @RequestMapping("/")
     @ResponseBody
     public String openning(){
-        return "Agora Vai!!!!!";
+        return "Agora Vai!!!!";
     }
 
 }
