@@ -7,7 +7,7 @@ on:
 
 env:
   PROJECT_ID: ${{secrets.GKE_PROJECT}}
-  GKE_CLUSTER: biz-teste
+  GKE_CLUSTER: teste-biz
   GKE_ZONE: us-central1-c
   DEPLOYMENT_NAME: github-actions-gke
   IMAGE: github-actions-gke-image
