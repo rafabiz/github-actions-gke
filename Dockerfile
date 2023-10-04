@@ -1,0 +1,9 @@
+FROM eclipse-temurin:17-jdk-alpine
+
+EXPOSE 8080
+
+ARG JAR_FILE=target/github-actions.gke-0.0.1-SNAPSHOT
+ADD ${JAR_FILE} app.jar
+
+ENTRYPOINT exec java -jar /app.jar
+
