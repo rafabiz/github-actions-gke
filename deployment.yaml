@@ -18,3 +18,4 @@ spec:
     spec:
       containers:
           name: github-actions-gke
+          image: $IMAGE:$TAG
