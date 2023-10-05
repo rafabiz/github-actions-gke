@@ -5,4 +5,5 @@ metadata:
 spec:
   replicas: 1
   selector:
-    app: github-actions-gke
+    matchLabels:
+      app: github-actions-gke
