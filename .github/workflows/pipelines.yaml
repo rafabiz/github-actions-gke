@@ -47,7 +47,7 @@ jobs:
 
       - name: New Credentials
         run: |-
-          gke-gcloud-auth-plugin --version
+          gcloud components install gke-gcloud-auth-plugin
 
       - name: Get GKE Credentials
         run: |-
