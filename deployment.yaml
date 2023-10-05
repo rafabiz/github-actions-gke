@@ -18,5 +18,5 @@ spec:
     spec:
       containers:
           - name: github-actions-gke
-            image: github-actions-gke-image:1.0.1
+            image: github-actions-gke-image:1.0.2
 
