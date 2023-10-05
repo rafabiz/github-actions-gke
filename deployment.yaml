@@ -2,8 +2,22 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: github-actions-gke
+  labels:
+    app: web
 spec:
-  replicas: 1
   selector:
     matchLabels:
-      app: github-actions-gke
+      app: web
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+          name: github-actions-gke
+          image: github-actions-gke
+          ports:
+            —containerPort: 8080
