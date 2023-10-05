@@ -18,6 +18,3 @@ spec:
     spec:
       containers:
           name: github-actions-gke
-          image: github-actions-gke
-          ports:
-            —containerPort: 8080
