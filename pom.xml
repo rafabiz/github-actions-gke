@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.aeradron.code</groupId>
-	<artifactId>github-actions.gke</artifactId>
+	<artifactId>github-actions-gke</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>github-actions.gke</name>
+	<name>github-actions-gke</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
