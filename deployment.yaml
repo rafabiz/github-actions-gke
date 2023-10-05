@@ -17,5 +17,5 @@ spec:
         app: web
     spec:
       containers:
-          name: github-actions-gke
-          image: github-actions-gke:1.0.0
+          - name: github-actions-gke
+
