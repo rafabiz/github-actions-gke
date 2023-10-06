@@ -11,7 +11,7 @@ env:
   GKE_ZONE: us-west1-a
   DEPLOYMENT_NAME: github-actions-gke
   IMAGE: github-actions-gke-image
-  TAG: 1.0.3
+  TAG: 1.0.4
 
 jobs:
   setup-build-publish-deploy:
